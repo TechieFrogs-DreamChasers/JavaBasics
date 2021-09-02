@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+public class gcd {
+    public static void main(String args[])
+    {
+        int i,a,b,val=0,n;
+        Scanner sc = new Scanner(System.in);
+        a = sc.nextInt();
+        b = sc.nextInt();
+        if(a>b)
+        {
+            n = a;
+        }
+        else
+        {
+            n = b;
+        }
+        for(i = 1 ; i < n ; i++)
+        {
+            if((a%i)==0 && (b%i)==0)
+            {
+                val = i;
+            
+            }
+        }
+        System.out.println("The gcd of " +a+ "and "+b+ " is "+val);
+        sc.close();
+    }
+}
