@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class DeliveryDetails {
     public static void main(String[] args) {
         System.out.println("******Delivery Address******");
+        //asking to enter name on the same line
         System.out.print("Enter your full name:");
         Scanner scan = new Scanner(System.in);
         String firstName = scan.next();
