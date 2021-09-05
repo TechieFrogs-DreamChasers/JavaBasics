@@ -2,8 +2,8 @@ package ASSIGNMENT_1;
 
 import java.util.Scanner;
 
-public class NumPyramd {  //23.Pyramid using numbers
-    public static void main(String[] args){ //23. Pyramid using numbers
+public class NumPyramd {  //23.Pyramid5 using numbers
+    public static void main(String[] args){ //23. Pyramid5 using numbers
         System.out.println("Enter the range: ");
         Scanner obj= new Scanner(System.in);
         int num= obj.nextInt();
