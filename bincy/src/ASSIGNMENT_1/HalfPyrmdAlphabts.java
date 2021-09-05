@@ -2,7 +2,7 @@ package ASSIGNMENT_1;
 
 import java.util.Scanner;
 
-public class HalfPyrmdAlphabts { //19. Half Pyramid Alphabets
+public class HalfPyrmdAlphabts { //19. Half Pyramid5 Alphabets
     public static void main(String[] args){
         System.out.println("Enter the alphabet: ");
         Scanner obj = new Scanner(System.in);
