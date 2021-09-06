@@ -13,24 +13,24 @@ Requirements:
  */
 public class Solution {
     public static void main(String[] args) {
-        Scanner sc=new Scanner(System.in);
-        int a=sc.nextInt();
-        int b=sc.nextInt();
-        int c=sc.nextInt();
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        int c = sc.nextInt();
 
-        //int max=0;
-        //int min=0;
-        int mid=0;
+        // int max=0;
+        // int min=0;
+        int mid = 0;
 
-        if(a-b>a-c){
-            mid=a;
-        } else if(b-c>b-a){
-            mid=b;
-        }else if(c-a>c-b){
-            mid=c;
+        if (a - b > a - c) {
+            mid = a;
+        } else if (b - c > b - a) {
+            mid = b;
+        } else if (c - a > c - b) {
+            mid = c;
         }
         System.out.println(mid);
-
+        sc.close();
 
     }
 }
