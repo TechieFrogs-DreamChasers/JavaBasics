@@ -24,6 +24,7 @@ public class SRInher extends Rectangle{
         super(s,s);
         System.out.println("The area of square is "+(s*s));
         System.out.println("The per of square is "+(4*s));
+       
     }
     public static void main(String[] args) {
         SRInher sr = new SRInher(3);
