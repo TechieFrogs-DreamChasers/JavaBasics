@@ -11,9 +11,7 @@ public class ConstParameters {
 
     public static void main(String[] args){
         System.out.println("Given numbers are :");
-        ConstParameters obj = new ConstParameters(18,158);
-        
+        ConstParameters obj = new ConstParameters(18,158);        
     }
-    
-    
+       
 }
