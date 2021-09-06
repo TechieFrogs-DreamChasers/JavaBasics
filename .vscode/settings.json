@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
     "java.project.sourcePaths": [
         "Devisri/src",
@@ -5,3 +6,6 @@
         "siri/src"
     ]
 }
+=======
+{}
+>>>>>>> b108381f78371000ac8866fe8f08ac7c9a210dcb
