@@ -1,6 +1,6 @@
 public class Student {
     String name;
-    int roll;;
+    int roll;
 
 
     public static void main(String[] args) {
