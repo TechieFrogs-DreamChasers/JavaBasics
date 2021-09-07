@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Average {
+public class Average1 {
     public static void main(String[] args) {
         Scanner sc= new Scanner(System.in);
         int num1=checkIntValues(sc);
@@ -9,7 +9,7 @@ public class Average {
         double num4=checkDoubleValues(sc);
         sc.close();
         int average=(int)(num1+num2+num3+num4)/4;
-        System.out.println("The Average of entered numbers is: "+average);
+        System.out.println("The Average1 of entered numbers is: "+average);
     }
     static int checkIntValues(Scanner scanner){
         int number;
