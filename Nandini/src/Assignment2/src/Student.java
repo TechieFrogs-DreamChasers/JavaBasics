@@ -1,20 +1,20 @@
 
 public class Student {
     String name;
-    int roll_No;
+    int roll_no;
 
-    public Student(String name, int roll_No) {
+    public Student(String name, int roll_no) {
         this.name = name;
-        this.roll_No = roll_No;
+        this.roll_no = roll_no;
     }
 
     public static void main(String[] args) {
-        Student student=new Student("Manasvi",29);
+        Student student=new Student("John",2);
         student.information();
     }
     
     void information(){
-        System.out.println(name+" "+roll_No);
+        System.out.println(name+" "+roll_no);
     }
 }
 
