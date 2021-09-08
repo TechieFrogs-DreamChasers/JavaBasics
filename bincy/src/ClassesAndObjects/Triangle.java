@@ -8,11 +8,14 @@ public class Triangle {
         Triangle triangle = new Triangle();
         triangle.triArea();
         Triangle triangle2 = new Triangle(3,4,5);
-
+        triangle2.triArea();
     }
     Triangle(){
-
+        
     }
+    
+
+    
     Triangle(int s1,int s2,int s3){
         side1 = s1;
         side2 = s2;
