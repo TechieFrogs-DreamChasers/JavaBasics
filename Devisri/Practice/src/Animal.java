@@ -1,3 +1,5 @@
+//package Practice.src;
+
 public class Animal {
     static String type;
     String name;

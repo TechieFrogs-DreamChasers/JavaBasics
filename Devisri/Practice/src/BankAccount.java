@@ -1,3 +1,5 @@
+//package Practice.src;
+
 public class BankAccount {
     static final String ERR_MSG = "Insufficient Balance!!!";
     String customer_Name;
@@ -7,7 +9,7 @@ public class BankAccount {
     long phone;
 
     public BankAccount() {
-        this("Sam","0000005284176390",15000.76,"sam@email.com",8521479630L);
+        this("Sam", "0000005284176390", 15000.76, "sam@email.com", 8521479630L);
         System.out.println("***Default Constructor called***");
     }
 
@@ -48,7 +50,8 @@ public class BankAccount {
 
         } else {
             balance -= withdraw;
-            System.out.println("A withdrawal of " + withdraw + " is made. " + "New balance after withdrawal is: " + balance);
+            System.out.println(
+                    "A withdrawal of " + withdraw + " is made. " + "New balance after withdrawal is: " + balance);
         }
     }
 
