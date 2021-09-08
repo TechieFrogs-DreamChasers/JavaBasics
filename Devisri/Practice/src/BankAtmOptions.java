@@ -51,7 +51,7 @@ public class BankAtmOptions {
         } while ( digit > 0 & !( digit >= 1000 & digit<=9999 ) );
         return digit;
     }
-
+   //checking for validation
     static int checkOptionValues(Scanner scanner){
         int option;
         do{
