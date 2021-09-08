@@ -1,11 +1,6 @@
-<<<<<<< HEAD
 {
     "java.project.sourcePaths": [
-        "Devisri/src",
-        "Devisri",
-        "siri/src"
+        "Srivatsav/src/Assignment2",
+        "Srivatsav/src"
     ]
 }
-=======
-{}
->>>>>>> b108381f78371000ac8866fe8f08ac7c9a210dcb
