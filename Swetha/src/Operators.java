@@ -1,4 +1,4 @@
-import jdk.tools.jlink.internal.SymLinkResourcePoolEntry;
+
 
 public class Operators{
     public static void main(String[] args) {
@@ -49,7 +49,7 @@ public class Operators{
         j=5;
         i-=5; //i=i-5
         j+=5; //j=j+5
-        System.out.println(i+"   "+j);
+        System.out.println(i+"  swetha  "+j);
         short a=5;
         short b=5;
         b=(short)(a+b);   // In any expression the default return type is Integer int
