@@ -9,6 +9,8 @@ public class innerclass {//outer class is called as enclosing class
         //inner class cannot be accessed
         Myinnerclass innerobj = new Myinnerclass(); 
         //innerobj.j,k,b,diplay method all innerclass objects can be accessed
+        innerobj.display();
+        int k=10;
         
     }
     class Myinnerclass{
@@ -22,7 +24,7 @@ public class innerclass {//outer class is called as enclosing class
             //static, private can be accessed without object creation
             System.out.println("Accesing Inner elements"+" "+j+" "+k+" "+b);
             System.out.println("accessing outer class displayout method");
-            displayout();//calling outer method 
+            //displayout();//calling outer method 
             // Inner class can access outer class content but outer class cannot access inner class content//
 
 
@@ -42,7 +44,7 @@ public class innerclass {//outer class is called as enclosing class
 
     }
     public static void main(String[]args){
-       // innerclass outerobj =new innerclass();//outer class object, Instance creation
+        innerclass outerobj =new innerclass();//outer class object, Instance creation
        // innerclass.Myinnerclass innerobj = outerobj.new Myinnerclass();
         //Inner object is created using outer object reference
        // outerclass.innerclass objname = outerclassobjname new innerclass();
@@ -51,6 +53,8 @@ public class innerclass {//outer class is called as enclosing class
       //innerobj.b,j,k,displaymethods
       //outerobj.displayout();
      // displayout();
+     outerobj.displayout();// will result in infinite loop
+     
      
     
 
