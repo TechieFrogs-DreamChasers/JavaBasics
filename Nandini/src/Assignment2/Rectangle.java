@@ -1,4 +1,4 @@
-
+package Assignment2;
 public class Rectangle {
 	
 	int side1;
