@@ -11,9 +11,9 @@ public class Encapsulatedclass {
         return age;
     }
     public void setage(){
-        this.age = age;
+      //  this.age = age;
     }
-    public String getname(){// can be anyname example: getmyname
+    public String getname(){// can be anyname
         return name;
     }
     public void setName(String Name){
