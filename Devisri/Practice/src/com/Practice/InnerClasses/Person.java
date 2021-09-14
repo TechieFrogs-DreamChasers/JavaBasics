@@ -12,6 +12,12 @@ public class Person {
         phone=9874560123L;
     }
 
+  public Person(String name, long phone) {
+        System.out.println("Main class-->Person   (parameters)");
+        this.name = name;
+        this.phone = phone;
+    }
+
     void out_display(){
         System.out.println("Main class-->out_display()");
         System.out.println(id+" "+name+" "+phone);

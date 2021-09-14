@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+package Assignment2;
+>>>>>>> 4925dc6a6839deb37f9dc0a89ebbec9612ad9f4c
 import java.util.Scanner;
 
 public class Area {
