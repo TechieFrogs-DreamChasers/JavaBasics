@@ -18,9 +18,10 @@ public void display(){
 
 public static void main(String[] args){
     MethodsDemo obj = new MethodsDemo();
-    int d = obj.MethodsDemo(5,10);
+    int d = obj.display(5, 10);
     System.out.println("After Method");
     System.out.println(d);
     System.out.println("After 2nd Method");
 
+}
 }
