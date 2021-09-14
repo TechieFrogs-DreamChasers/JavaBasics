@@ -2,6 +2,7 @@
     "java.project.sourcePaths": [
         "Swetha/src",
         "Devisri/Practice/src",
-        "siri/practice"
+        "siri/practice",
+        "siri\\src"
     ]
 }
