@@ -5,41 +5,41 @@ package assign;
     int sal;
     String name;
     String address;
-    Member(String name, int age, long Pn, String address, int sal){
-        this.name=name;
-        this.age=age;
-        this.Pn=Pn;
-        this.address=address;
-    }
+   
+
     void printsalary(){
         System.out.println(" print the salary of employee ="+" ");
     }
     }
 class Employee extends Member { 
-    Employee(String name, int age, long Pn, String address, int sal) {
-        super(name, age, Pn, address, sal);
-        //TODO Auto-generated constructor stub
-    }
+    String dpt;
+    
     
 }
 class Manager extends Member{
-    Manager(String name, int age, long Pn, String address, int sal) {
-        super(name, age, Pn, address, sal);
-
-  Void  dpt(){
-      System.out.println("ob1.name, ob1.age, ob1.Pn, ob1.address, ob1.sal");
-  }
-
-
     
+String spl;    
 }
 public class Assign3{
     public static void main(String[]args){
-        Employee ob1 = new Employee("sam",25, 9491878362L, "wall street", 2500);
-Manager obj2 = new Manager ("ram", 30, 9491878362L,"GENERAL STREET", 5000);
-System.out.println(obj);
-System.out.println();
+        Employee obj1 = new Employee();
+obj1.Pn= 9491878362L;
+obj1.address="wall street";
+obj1.age=25;
+obj1.dpt="Research";
+obj1.name="Noah";
+obj1.sal=2500;
+System.out.println("name and salary of employee:"+" "+obj1.name+" "+obj1.sal);
+Manager obj2 = new Manager();
+obj2.Pn=9491878363L;
+obj2.address="General street";
+obj2.age=30;
+obj2.name="Ram";
+obj2.sal=3000;
+obj2.spl="product reasearch";
+System.out.println("name and display of Manager"+" "+obj2.name+" "+obj2.sal);
 
+        
 
 
 
@@ -47,5 +47,4 @@ System.out.println();
 
 
     }
-}
 }
