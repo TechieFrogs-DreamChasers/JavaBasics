@@ -7,8 +7,13 @@ public class MainPerson {
         System.out.println("*********************");
         //Student s=new Student("Student",'B');
         //s.display();
-        //System.out.println("*********************");
+        /*Teacher t=new Teacher();
+        t.display();
+        System.out.println("*****************************");*/
+        Elementary el=new Elementary();
+        el.display();
+        /*System.out.println("*********************");
         Person p = new Person();
-        p.display();
+        p.display();*/
     }
 }
