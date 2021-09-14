@@ -12,7 +12,7 @@ public class SumOfDigits{
             digit=num%10;//finds last digit of the given number
             sum=sum+digit;//adding last digit of a number to the sum variable
             num=num/10; 
-        }
+        } sc.close();
         System.out.println("sum of the digit is "+sum); 
     }
 }
