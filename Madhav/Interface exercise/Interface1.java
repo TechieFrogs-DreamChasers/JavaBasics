@@ -1,11 +1,7 @@
 interface RegularPolygon{
     int getNumSides();
     int getSideLength();
-    default void Perimeter()
-    {
-        
-    }
-   
+    
 }
 class EquiTriangle implements RegularPolygon{
     int i;
