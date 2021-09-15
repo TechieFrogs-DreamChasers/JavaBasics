@@ -5,7 +5,7 @@ package nestedclasspractice;
 
 class Father{
     int propertyvalue;
-    Father (int propertyvalue){
+    Father(int propertyvalue){
         this.propertyvalue =  propertyvalue;
     }
 
