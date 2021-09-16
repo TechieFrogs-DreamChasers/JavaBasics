@@ -18,7 +18,7 @@ public class SwitchDemo {
         }*/
 
         Integer number = 100;
-        char ch = "Y";
+        char ch = 'Y';
         String level = "One";
         int b = 50;
         switch (ch){

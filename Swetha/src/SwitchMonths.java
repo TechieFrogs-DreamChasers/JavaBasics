@@ -6,10 +6,10 @@ public class SwitchMonths {
     }
     public static void main(String[] args) {
     byte i = 10;
-    int j = 5;
-    String K = "2";
-    char ch = 'B';//Ascii value of B is 66
-    boolean b = true;
+    //int j = 5;
+    //String K = "2";
+  //  char ch = 'B';//Ascii value of B is 66
+  //  boolean b = true;
 
 
     switch(i){

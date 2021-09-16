@@ -10,7 +10,7 @@ public class innerclass {//outer class is called as enclosing class
         Myinnerclass innerobj = new Myinnerclass(); 
         //innerobj.j,k,b,diplay method all innerclass objects can be accessed
         innerobj.display();
-        int k=10;
+        //int k=10;
         
     }
     class Myinnerclass{

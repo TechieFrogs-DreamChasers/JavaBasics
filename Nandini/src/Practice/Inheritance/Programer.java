@@ -11,7 +11,7 @@ public class Programer extends Employee {
         //System.out.println("Programmer Constructor");
     }
 
-    void display(){
+     void display(){
 
         System.out.println("Salary of the Employee: " + salary);
 

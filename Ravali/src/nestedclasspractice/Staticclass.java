@@ -2,7 +2,7 @@ package nestedclasspractice;
 
 public class Staticclass {
     static int i;
-    private int j;
+   // private int j;
     int k;
     protected String name;
 void displayout(){
@@ -14,7 +14,7 @@ Staticclass(){
 
 }
 static class Mystaticclass{
-    private int l;
+    //private int l;
     int m;
     static int y;
     void displayNon(){
@@ -24,7 +24,7 @@ static void display(){
     System.out.println(" Static display method in inner class");   
 }
 public static void main(String[]args){
-    Staticclass outerobj = new Staticclass();
+   // Staticclass outerobj = new Staticclass();
    
 
 
