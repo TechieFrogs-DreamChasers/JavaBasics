@@ -1,4 +1,4 @@
-package Assignment3.Excercise1;
+package Assignment3.Exercise2;
 
 public class Child extends Parent {
     
@@ -8,5 +8,4 @@ public class Child extends Parent {
         super.prints();
     }
 
-    
 }

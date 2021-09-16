@@ -1,12 +1,7 @@
-package Assignment3.Excercise1;
+package Assignment3;
 
 public class Child extends Parent {
-    
-    void prints(){
-        
+    void display(){
         System.out.println("This is Child Class");
-        super.prints();
     }
-
-    
 }
