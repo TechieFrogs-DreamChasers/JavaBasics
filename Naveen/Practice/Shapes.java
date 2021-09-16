@@ -26,6 +26,6 @@ class Shapes {
           myShape.area(6,2);
            
         }
-      }
+  
     
 }
