@@ -3,14 +3,27 @@ package Assignments;
 import java.util.Scanner;
 
 public class PrimeNumber { 
+
+
+
+
+
+
+
     public static void main(String args[]) {
+        int num;
         int temp;
         boolean isPrime=true;
-        Scanner sc= new Scanner(System.in);
+        Scanner scannerObj= new Scanner(System.in);
+        do{
         System.out.println("Enter any number:");
-        //capture the input in an integer
-        int num=sc.nextInt();
-            sc.close();
+        while(!scannerObj.hasNextInt()){
+            scannerObj.next();
+        System.out.println("Please Enter a valid number:");
+        }
+         num=scannerObj.nextInt();
+        }  while(num<=0) ;
+    
         for(int i=2;i<=num/2;i++)
         {
                temp=num%i;
@@ -25,5 +38,6 @@ public class PrimeNumber {
            System.out.println(num + " is a Prime Number");
         else
            System.out.println(num + " is not a Prime Number");
+           scannerObj.close();
     }
 }
