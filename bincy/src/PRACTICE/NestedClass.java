@@ -32,7 +32,8 @@ public class NestedClass {
         void innerDisplay(){
             System.out.println("In inner class");
                        
-            System.out.println(i+" "+ k+" "+j);// Outer class variables
+            System.out.println(i+" "+ k+" "+j+" outer class");// Outer class variables
+            System.out.println(a+ " "+ b +" "+c+" Inner class");// Inner class variables
             display();   //Outer class method
 
         }
@@ -43,6 +44,12 @@ public class NestedClass {
         InnerClass(int l, int m){
             this();
             System.out.println("Parameterised InnerClass constructor");
+        }
+
+        class DeepInner{
+            void displayDeepInner(){
+                System.out.println("Inside displayDeepInner");
+            }
         }
 
         public static void main(String[] args){
@@ -58,5 +65,8 @@ public class NestedClass {
         
         NestedClass.InnerClass inner = outer.new InnerClass();
         inner.innerDisplay();
+
+        InnerClass.DeepInner deepInner = inner.new DeepInner();
+        deepInner.displayDeepInner();
     }
 }

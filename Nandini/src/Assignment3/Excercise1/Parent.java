@@ -4,6 +4,7 @@ public class Parent {
     
    void prints(){
         System.out.println("This is Parent class");
+        
     }
 
     public static void main(String[] args) {
@@ -12,7 +13,6 @@ public class Parent {
         Child c = new Child();
 
         p.prints();
-        c.printing();
         c.prints();
 }
 }
