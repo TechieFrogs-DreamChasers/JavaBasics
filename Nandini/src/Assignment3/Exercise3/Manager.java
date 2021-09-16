@@ -4,33 +4,25 @@ public class Manager extends Member{
     
     String department;
 
-    public static void main(String[] args) {
-            
-        Employee e = new Employee();
-        Manager m = new Manager();
+    
+        Manager(String name,int age,String phoneNumber,String address,double salary,String department){
+            super(name,age,phoneNumber,address,salary);
+            this.name = name;
+            this.age = age;
+            this.phoneNumber = phoneNumber;
+            this.address = address;
+            this.salary = salary;
+            this.department = department;
+        }
 
-        e.name = "John";
-        e.age = 30;
-        e.phoneNumber = "9387656720";
-        e.address = "76B-VINE";
-        e.salary = 40000;
+        /*public String getDepartment() {
+            return department;
+        }*/
 
-        m.name = "Sam";
-        m.age = 34;
-        m.phoneNumber = "9381326720";
-        m.address = "98H-ADAMS";
-        m.salary = 50000;
-
-        System.out.println("Manager Details: ");
-        System.out.println(" ");
-        m.printDetails();
-
-        System.out.println(" ");
-        
-        System.out.println("Employee Details");
-        System.out.println(" ");
-        e.printDetails();
-
-    }
+        @Override
+        public void printDetails() {
+            super.printDetails();
+            System.out.println("Department: "+ department);
+        }
 
 }
