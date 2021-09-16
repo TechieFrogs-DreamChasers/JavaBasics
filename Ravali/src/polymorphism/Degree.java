@@ -3,7 +3,8 @@ package polymorphism;
 public class Degree {
     void getdegree(){
         System.out.println("I got a degree");
-    }
+        
+}
    class Ug{
        void getdegree(){
            System.out.println("I am a undergraduate");
@@ -22,6 +23,8 @@ class Pg{
        ob1.getdegree();
       Degree.Pg ob2 = ob.new Pg();
       ob2.getdegree();
+     
+
 
    }
 }
