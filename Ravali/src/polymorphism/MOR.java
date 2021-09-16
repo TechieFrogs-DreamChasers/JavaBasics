@@ -7,11 +7,13 @@ package polymorphism;
         }
     }
     class child extends parent{
-    
+        
         void display(){
-super.display();
+            super.display();
+
   System.out.println("child");
-        }    
+        }   
+        
     
 public class MOR{
     public static void main (String []args){
