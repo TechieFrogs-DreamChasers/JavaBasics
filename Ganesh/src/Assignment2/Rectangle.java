@@ -14,6 +14,7 @@ public class Rectangle {
         Rectangle areaobj1 = new Rectangle(5,8);
         areaobj.display();
         areaobj1.display();
+        
     }
     
 }

@@ -34,11 +34,30 @@ public class StaticNestedClass {
             System.out.println("Inside Inner method");
             displayOutStatic();
             //System.out.println(i + " " + " "+ k);// cannot make static reference
-            System.out.println(j);
+            System.out.println(j); //static variable can access
+            System.out.println(a+" "+b+ " "+name);
             
+        }
+        class DeepInner{ //Non static class inside static nested class
+            void displayDeepInner(){
+                System.out.println("Inside displayDeepInner");
+            }
+
+        }
+        static class StaticDeepInner{ //static inside static
+            void displayStaticDI(){
+                System.out.println("Inside displaystaticDeepInner");
+            }
         }
         public static void main(String[] args){
             System.out.println("In inner class main");
+            Inner inner = new Inner();
+            
+            StaticDeepInner staticDI = new StaticDeepInner();
+            staticDI.displayStaticDI();
+            
+            Inner.DeepInner deepInner = inner.new DeepInner();
+            deepInner.displayDeepInner();
         }
     }
 
