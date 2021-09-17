@@ -1,5 +1,5 @@
 package assign;
-class parent{
+class p{
     void display(){
         System.out.println("This is a parent class");
     }
@@ -8,7 +8,7 @@ class parent{
 
 }
 
-class child extends parent{
+class c extends p{
     
     void displayout(){
         System.out.println("This is a child class ");
