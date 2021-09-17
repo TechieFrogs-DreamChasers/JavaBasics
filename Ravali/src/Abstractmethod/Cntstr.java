@@ -1,14 +1,13 @@
 package Abstractmethod;
 abstract class M{
-    int i;
-    int j;
+    
     
     abstract void display();
     
 } 
 class N extends M{
-    int i;
-    int j;
+    int i,j;
+    
     N(){
         i=10;
         j=20;
