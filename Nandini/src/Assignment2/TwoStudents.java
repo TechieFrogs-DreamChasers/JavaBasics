@@ -1,4 +1,6 @@
 
+package Assignment2;
+
 public class TwoStudents {
 	
 	public static void main(String[] args) {

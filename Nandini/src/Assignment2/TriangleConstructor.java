@@ -1,4 +1,6 @@
 
+package Assignment2;
+
 public class TriangleConstructor {
 	
 	double area;
