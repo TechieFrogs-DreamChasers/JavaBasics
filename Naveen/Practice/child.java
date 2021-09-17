@@ -5,12 +5,13 @@ public class child {
         }  
       }  
       //Creating a child class  
-      class Bike extends child{  
+      class Tool extends child{  
         public static void main(String args[]){  
         //creating an instance of child class  
-        Bike obj = new Bike();  
+        Tool obj = new Tool();  
         //calling the method with child class instance  
         obj.run();  
         }  
     
 }
+

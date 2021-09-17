@@ -1,17 +1,29 @@
 import java.util.Scanner;
 
 public class palindrom {
+    
+    
 public static void main(String[] args) {
-    Scanner oScanner=new Scanner(system.in);
+    int r,number, sum=0,temp;
+    Scanner oScanner=new Scanner(System.in);
     System.out.println("enter number");
-    oScanner.nextInt(); 
-    int n=0,r, sum=0;
-    temp=n;
-    while(temp>0){
-        r=n%10;
-        sum=(sum*10)+10;
-        
+
+ number=oScanner.nextInt();
+temp=number;
+    
+    while(number>0){
+        r=number%10;
+        sum=(sum*10)+r;
+        number=number/10;
+        }
+     if(temp==sum){
+         System.out.println("palindrom number ");
+     }
+    else{
+        System.out.println("not palindrom");
+
     }
+    oScanner.close();
 
 }
     
