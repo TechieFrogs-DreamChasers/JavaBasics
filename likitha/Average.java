@@ -18,6 +18,7 @@ System.out.println("enter sides");
         System.out.println("enter n value");
         int n=sc.nextInt();
         Average1(a,b,c,n);
+       
 
 
 
