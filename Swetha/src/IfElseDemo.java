@@ -1,8 +1,8 @@
 public class IfElseDemo {
     public static void main(String[] args) {
          int age=16;
-        int wieght=60;
-        String gender="Male";
+        //int wieght=60;
+        //String gender="Male";
 
         if (age > 18) //{
             System.out.println("Eligible"); //without curlybraces only single statement is allowed this is only for If block not for else block
