@@ -1,8 +1,6 @@
-<<<<<<< HEAD
 
-=======
 package Assignment2;
->>>>>>> 4925dc6a6839deb37f9dc0a89ebbec9612ad9f4c
+
 public class TwoStudents {
 	
 	public static void main(String[] args) {
