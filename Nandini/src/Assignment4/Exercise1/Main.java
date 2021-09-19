@@ -1,4 +1,4 @@
-package Assignment4;
+package Assignment4.Exercise1;
 
 public class Main {
     

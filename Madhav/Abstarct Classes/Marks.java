@@ -27,7 +27,7 @@ class B extends Marks{
     int p;
     B(int a,int b, int c,int d)
     {
-        this.p = (a+b+c) / 3;
+        this.p = (a+b+c+d) / 4;
     }
     int getPercentage()
     {
