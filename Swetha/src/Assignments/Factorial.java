@@ -1,3 +1,4 @@
+package Assignments;
 public class Factorial {
     public static void main(String[] args) {
         int i,fact=1;
@@ -6,7 +7,7 @@ public class Factorial {
         for(i=1; i<=number; ++i) {
             fact=fact*i;
         }
-        System.out.println("Factorial of"+number+"is:"+fact);
+        System.out.println("Factorial of "+number+" is:"+fact);
 
     }
     
