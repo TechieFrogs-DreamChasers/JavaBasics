@@ -2,9 +2,7 @@ package Assignment5;
 
 
 public abstract class Parent {
-    void message(){
-        System.out.println("This is a method from parent class");
-    }
+    abstract void message();
     
 }
 class FirstSubclass extends Parent{
@@ -23,8 +21,7 @@ class SecondSubClass extends Parent{
         obj.message();
         FirstSubclass obj2 = new FirstSubclass();
         obj2.message();
-        //Parent obj3 = new FirstSubclass();
-        //super.message();
+       
 
         }
 }
