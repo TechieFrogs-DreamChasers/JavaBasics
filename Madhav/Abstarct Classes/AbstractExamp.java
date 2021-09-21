@@ -1,4 +1,4 @@
-public abstract class AbstractExamp {
+abstract class AbstractExamp {
     AbstractExamp()
     {
         System.out.println("This is constructor of abstract class");
@@ -8,6 +8,7 @@ public abstract class AbstractExamp {
     {
         System.out.println("This is normal method of abstract class");
     }
+
     public static void main(String[] args) {
         Mama m=new Mama();
         m.a_method();
@@ -16,6 +17,11 @@ public abstract class AbstractExamp {
     
 }
 class Mama extends AbstractExamp{
+    Mama()
+    {
+        //super();
+        System.out.println("This is subclass constructor");
+    }
     void a_method()
     {
         System.out.println("This prints abstract method");

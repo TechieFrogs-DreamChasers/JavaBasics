@@ -11,10 +11,10 @@ class B extends A{
     }
 
     public static void main(String[] args){
-        A obj =  new A();
-        obj.display();
-        B obj1 = new B();
-        obj1.display();
+       // A obj =  new A();
+        A.display();
+       // B obj1 = new B();
+        B.display();
         A me = new B();
         me.display();
 
