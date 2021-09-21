@@ -25,22 +25,25 @@ public class LocalClass {
             }
 
         }
-
         InnerLocalClass inner = new InnerLocalClass();
-        inner.innerLocalDisplay();
+        inner.innerLocalDisplay(); 
+        
+    }
 
-        class InnerClass{
-            int i1;
-            static int j1;
+    
+
+    class InnerClass{
+        int i1;
+        static int j1;
             
-            static void displyInnerClass(){
-                System.out.println(j+ " "+j1);
+        static void displyInnerClass(){
+            System.out.println(j+ " "+j1);
 
-            }
         }
+    }
 
      
-    }
+    
     static class StaticInnerClass{
 
     }
@@ -48,6 +51,7 @@ public class LocalClass {
     public static void main(String[] args){
         LocalClass outer = new LocalClass();
         outer.display();
+        
 
     }
     
