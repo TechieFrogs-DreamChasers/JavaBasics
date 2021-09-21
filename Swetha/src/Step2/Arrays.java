@@ -25,5 +25,8 @@ for(int temp: a){
 
 
     }
+
+    public static void sort(int[] a) {
+    }
     
 }
