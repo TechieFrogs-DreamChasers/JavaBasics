@@ -45,6 +45,9 @@ public class NestedClass {
             this();
             System.out.println("Parameterised InnerClass constructor");
         }
+        static void staticInDisplay(){
+            System.out.println("In static display");
+        }
 
         class DeepInner{
             void displayDeepInner(){
@@ -65,6 +68,7 @@ public class NestedClass {
         
         NestedClass.InnerClass inner = outer.new InnerClass();
         inner.innerDisplay();
+        InnerClass.staticInDisplay();
 
         InnerClass.DeepInner deepInner = inner.new DeepInner();
         deepInner.displayDeepInner();
