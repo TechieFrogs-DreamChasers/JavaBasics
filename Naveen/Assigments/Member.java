@@ -9,7 +9,7 @@ public class Member {
           System.out.println(salary);
         }
       
-      }
+      
       
       class Employee extends Member{
         String specialization;
@@ -32,6 +32,7 @@ public class Member {
           Manager m = new Manager();
           //Same goes for Manager
         }
-      }		
+      }
+    }
     
-}
+
