@@ -14,14 +14,21 @@ public class Palindrome {
         {
             rem = num % 10;
             rev= rev* 10 + rem;
+            sc.close();
         }
+        
   
         // palindrome if temp and sum are equal
-        if(temp== rev)
+        if(temp== rev){
             System.out.println(temp + " is a palindrome.");//1568651
-        else
+        }
+        else{
             System.out.println(temp + " is not a palindrome.");//3632566
-            sc.close();
-     }
+        }
+        //sc.close();
+            
+     }   
+  
+
     
-}
+} 
