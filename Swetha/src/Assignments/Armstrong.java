@@ -5,11 +5,15 @@ import java.util.Scanner;
 public class Armstrong {
     public static void main(String[] args) {
         int num,temp,total=0;
-        Scanner sc=new Scanner(System.in);
+        Scanner scannerObj=new Scanner(System.in);
+        do{
         System.out.println("Enter your number:");
-        //sc.nextLine();
-        num=sc.nextInt();        
-        while(num!=0){
+        while(!scannerObj.hasNextInt());{
+        scannerObj.next();
+        System.out.println("Enter a valid number:");
+        } 
+        num=scannerObj.nextInt();        
+        }while(num!=0);{
             temp=num%10;
             total=total+temp*temp*temp;
             num/=10;
@@ -18,7 +22,7 @@ public class Armstrong {
         System.out.println(num+"is Armstrong");
         else
         System.out.println(num+"is not Armstrong");
-        sc.close();
+        scannerObj.close();
     }
     
 }

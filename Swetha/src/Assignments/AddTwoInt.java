@@ -1,6 +1,6 @@
 package Assignments;
 
-import java.util.Scanner;
+//import java.util.Scanner;
 
 public class AddTwoInt {
     public static void main(String[] args) {
