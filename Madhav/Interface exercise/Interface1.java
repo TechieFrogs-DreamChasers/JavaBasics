@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 interface RegularPolygon{
+    
     int getNumSides();
     int getSideLength();
     
@@ -8,7 +9,7 @@ interface RegularPolygon{
     {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter no of polygons");
-        int n = sc.nextInt();
+       int n = sc.nextInt();
         int RegularPolygon[] = new int[n];
         for(int i=0 ; i < n; i++)
         {
