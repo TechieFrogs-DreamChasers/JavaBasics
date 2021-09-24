@@ -2,6 +2,14 @@ public interface interface2
 {
     int i=10;
     void inter2();
+    interface innerinterfaceclass{
+        int a=11;
+        void innerinterface();
+        static void staticmethod()
+        {
+            System.out.println("inner static meethod");
+        }
+    }
 }
 interface interface3
 {
@@ -10,10 +18,25 @@ interface interface3
     {
         return "super class";
     }
+    static String mad()
+    {
+        return "Mad method";
+    }
 
 }
-class ex implements interface2,interface3{
+class ex implements interface2,interface3,interface2.innerinterfaceclass{
 
+    public void innerinterface()
+    {
+        System.out.println("Inner class method");
+    }
+
+    static String mad()
+    {
+        return "madhav child class";
+    }
+
+   
      public String printnum()
     {
         return "child class";
@@ -35,10 +58,17 @@ class ex implements interface2,interface3{
         Ex.inter2();
         Ex.inter3();
         System.out.println(Ex.printnum());
+        System.out.println(ex.mad());
+        interface2.innerinterfaceclass obj = new ex();
+        System.out.println(interface2.innerinterfaceclass.a);
+        obj.innerinterface();
+        interface2.innerinterfaceclass.staticmethod();
         
         
         
     }
+
+    
 
     
 }
