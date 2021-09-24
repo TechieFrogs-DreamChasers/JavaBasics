@@ -4,7 +4,14 @@ import com.Programs.program7.Sub.IModel;
 
 public class Model {
 
-    public class Mode implements IModel{
+    public Model() {
+    }
+
+    protected class Mode implements IModel {
+
+        public Mode() {
+
+        }
 
         @Override
         public void work() {

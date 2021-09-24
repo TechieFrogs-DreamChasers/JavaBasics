@@ -5,15 +5,19 @@ import com.Programs.program7.Sub2.Model;
 
 public class ShowSystemMode extends Model{
 
-    IModel hibernate(){
-       Model model=new Model();
-       Mode mode = model.new Mode();
-       return mode;
+   public ShowSystemMode(){
+       //super();
+   }
+
+   public IModel hibernate(ShowSystemMode ssm){
+        //Model model=new Model();
+        Model.Mode mode=ssm.new Mode();
+        return mode;
     }
 
     public static void main(String[] args) {
         ShowSystemMode ssm=new ShowSystemMode();
-        System.out.println(ssm.hibernate());
+        System.out.println(ssm.hibernate(ssm));
     }
 
 }
