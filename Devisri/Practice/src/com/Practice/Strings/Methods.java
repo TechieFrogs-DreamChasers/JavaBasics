@@ -77,6 +77,11 @@ public class Methods {
         //format()
         String str= String.format(s1, s);
         System.out.println("After format: "+str);
+	 String ss="Hello156";
+        System.out.println(ss.toLowerCase());//hello156
+        System.out.println(ss.toUpperCase());//HELLO156
+        String ss1=ss.replace("Hello","9652482");
+        System.out.println(ss1);//9652482156
 
     }
 }
