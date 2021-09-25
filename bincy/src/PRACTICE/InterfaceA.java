@@ -5,8 +5,16 @@ public interface InterfaceA {
     private void display(){
         System.out.println("In display");
     }       //public abstract void display()
+    default void myDisplay1(){
+        display();
+    }
     int move();
     void draw();
-   
+    /*
+    public static void main(String[] args){
+        System.out.println("In main");
+        
+    }*/
     
 }
+
