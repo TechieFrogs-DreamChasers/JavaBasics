@@ -6,18 +6,21 @@ public class FourWheeler extends Car{
        // Car car = new Car();
         //Car.Honda honda = car.new Honda();
         FourWheeler four = new FourWheeler();
-        FourWheeler.Ford ford = four.new Ford();
-        ford.display();
+        Vehicle vehicleObj = four.fourWheeler(four);
+        System.out.println(vehicleObj);
+        
     }
-    void fourWheeler(){
-       
+
+    Vehicle fourWheeler(FourWheeler four){
+       Honda honda = four.new Honda();
+       return honda;
     }
-    public class Ford extends Honda{
+    /*public class Ford extends Honda{
         
         Vehicle display(){
             speed();
             return new Car.Honda();
         }
-    } 
+    } */
     
 }
