@@ -2,7 +2,7 @@ package Assignment6.Exercise1;
 
 public class Main {
 
-    public static void main(String[] args) {
+   /* public static void main(String[] args) {
 
         
         EquilateralTriangle triangle = new EquilateralTriangle(5);
@@ -29,7 +29,7 @@ public class Main {
         System.out.println("Perimeter of the Square: "+ square.getPerimeter());
         System.out.println("Interior of Square: "+ square.getInteriorAngle());
 
-    }
+    }*/
     
 }
     
