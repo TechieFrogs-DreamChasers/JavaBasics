@@ -1,5 +1,8 @@
 {
     "java.project.sourcePaths": [
-        "Nandini/src"
+        "Swetha/src/Practice",
+        "Swetha/src/Assignments/ClassesAndObjects",
+        "Nandini/src",
+        "Swetha/src/Step2"
     ]
 }
