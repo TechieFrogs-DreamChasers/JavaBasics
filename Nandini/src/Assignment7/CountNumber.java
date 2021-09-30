@@ -4,8 +4,8 @@ import java.util.Scanner;
 
 public class CountNumber {
 
-    public static void main(String[] args) {
         
+    public static void main(String[] args) {
         String str;
         int vowels = 0; 
         int digits = 0;
@@ -40,6 +40,8 @@ public class CountNumber {
         System.out.println("Spaces: "+ spaces);
         
         sc.close();   
-    }
     
+    }
 }
+        
+
