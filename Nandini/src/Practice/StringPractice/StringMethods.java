@@ -11,7 +11,7 @@ public class StringMethods {
 
         String strObj = new String("Hello World");
         String strObj2 = new String("City State");
-        String obj3 = new String("Welcome");
+        String obj3 = new String("Welcome Java Programmers");
 
         System.out.println(str.charAt(3));
 
