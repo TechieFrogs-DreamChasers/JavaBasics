@@ -1,49 +1,49 @@
 public interface Regularpolygon {
     
-    void getNumSides();
-    void getSideLength();
+    int getNumSides();
+    int getSideLength( int i);
     static int totalsides(){ 
         return 4;
 
     }
     
 }
-class EquilaterTrangle{
+class EquilaterTrangle implements Regularpolygon{
     int i;
     public int getNumSides(){
         return 3;
-
-    }
-    public int getSideLength(int i){
-        return i;
-
-    }
+     }
     
 
     
     EquilaterTrangle(int b){
         this.i=b;
     }
+    @Override
+    public int getSideLength( int i) {
+        
+        return i;
+    }
 
 }
-class Square{
+class Square implements Regularpolygon{
 
     int number;
     Square(int a){
         this.number=a;
     }
-
-    public int getNumSides(){
-        return 4;
-    }
-    public int getSideLength(){
-        return number;
- 
-
- }
- public static void main(String[] args) {
-     
- }
+@Override
+public int getSideLength(int i) {
+    return 0;
+}
+@Override
+public int getNumSides() {
+    
+    return 4;
+}
+public static void main(String[] args) {
+    
+}
   
     }
 

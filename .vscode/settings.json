@@ -1,8 +1,9 @@
 {
     "java.project.sourcePaths": [
-        "Swetha/src/Practice",
-        "Swetha/src/Assignments/ClassesAndObjects",
+        "siri/practice",
+        "siri/ASSignmentOnStrings",
+        "Swetha/src/Step2",
         "Nandini/src",
-        "Swetha/src/Step2"
+        "siri/Interface"
     ]
 }
