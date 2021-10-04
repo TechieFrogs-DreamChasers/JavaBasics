@@ -9,11 +9,18 @@ public class Program15 {
         Scanner obj = new Scanner(System.in);
         String str1 = obj.nextLine();
         obj.close();
+        String capital = "";
 
+        //split the words on space
         String[] words = str1.split("\\s");
         for(int i=0; i< words.length; i++){
-            
+            //take the substring in the first place
+          String w = words[i].substring(0 , 1);
+          String remaining = words[i].substring(1);
+          capital+= (w .toUpperCase() + remaining+ " ");
+
         }
+        System.out.println(capital);
 
     }
     
