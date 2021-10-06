@@ -20,6 +20,7 @@ public class JaggedArray {
                 num1[i][j] = obj.nextInt();
             }
         }
+        obj.close();
         for(int i=0;i<num1.length;i++){
             for(int j=0;j<num1[i].length;j++){
                 System.out.print(num1[i][j]+ " ");
