@@ -1,15 +1,6 @@
 public abstract class Bank {
 
     abstract void getbalance(int i);
-    public static void main(String[] args) {
-
-        BankA A = new BankA();
-        A.getbalance(100);
-        BankB B = new BankB();
-        B.getbalance(150);
-        BankC  C = new BankC();
-        C.getbalance(200);
-    }
     
 }
 class BankA extends Bank{
@@ -35,4 +26,15 @@ class BankC extends Bank{
         System.out.println("Bank C have balance of "+i);
     }
 
+}
+class Banks{
+    public static void main(String[] args) {
+        BankA A = new BankA();
+        A.getbalance(100);
+        BankB B = new BankB();
+        B.getbalance(150);
+        BankC  C = new BankC();
+        C.getbalance(200);
+        
+    }
 }

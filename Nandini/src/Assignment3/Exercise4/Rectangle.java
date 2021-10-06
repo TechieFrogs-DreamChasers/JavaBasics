@@ -14,6 +14,7 @@ public class Rectangle {
 
             double area = length * breadth;
             System.out.println("Area of Rectangle: " + area);
+            //return area;
 
         }
 

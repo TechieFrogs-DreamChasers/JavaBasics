@@ -6,6 +6,7 @@ public class SubCounter extends Counter {
         sub.increment();
         sub.increment();
         sub.increment();
+        System.out.println("i = "+sub.i);
     }
     
 }

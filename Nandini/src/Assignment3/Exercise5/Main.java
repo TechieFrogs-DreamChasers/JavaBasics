@@ -18,12 +18,12 @@ public class Main {
             
             int j = temp[i];
 
-                System.out.println("Area of Square is: ");
+                System.out.println("Area of Square " + k +" is: ");
                 Square s = new Square(j);
                 s.getArea();
             
         }
             
-        sc.close();
+       sc.close();
     }
 }

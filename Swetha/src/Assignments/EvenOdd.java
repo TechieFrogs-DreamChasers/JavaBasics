@@ -4,14 +4,22 @@ import java.util.Scanner;
 
 public class EvenOdd{
     public static void main(String[] args) {
-        Scanner sc=new Scanner(System.in);
+        int n;
+        Scanner scannerObj=new Scanner(System.in);
+        do{
         System.out.println("Enter a number:");
-        int n=sc.nextInt();
-        if(n%2==0)
-        System.out.println(n + " is Even");
+            while(!scannerObj.hasNextInt()){
+                scannerObj.next();
+                System.out.println("Please Enter a valid number:");
+            } 
+            n =scannerObj.nextInt();
+        }while(n<=0);
+       // n =scannerObj.nextInt();
+        if(n%2==1)
+        System.out.println(n + " is Odd");
         else
-        System.out.println(n+" is Odd");
-        sc.close();
+        System.out.println(n+" is Even");
+        scannerObj.close();
         
     }
     
