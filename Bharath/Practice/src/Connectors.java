@@ -38,6 +38,11 @@ class Student {
         System.out.println(obj3.a+  "  connectors2  "+  obj3.f);
 
         obj3.test();
+        Connectors2 obj4 = new Connectors2();
+        
+
+
+
 
 
         Type obj2 = new Type();
