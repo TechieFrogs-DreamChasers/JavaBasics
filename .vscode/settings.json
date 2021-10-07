@@ -4,6 +4,11 @@
         "siri/ASSignmentOnStrings",
         "Swetha/src/Step2",
         "Nandini/src",
+<<<<<<< HEAD
         "siri/Interface"
+=======
+        "Swetha/src/Step2",
+        "Swetha\\src"
+>>>>>>> a47ff417ee796c972d50240c11fee180d52a46a4
     ]
 }
