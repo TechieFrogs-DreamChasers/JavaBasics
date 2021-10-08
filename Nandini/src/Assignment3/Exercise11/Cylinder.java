@@ -31,15 +31,18 @@ public class Cylinder extends Circle{
     }
 
     public double getVolume(){
-        return PI * getRadius() * getRadius() * height;
+        //return PI * getRadius() * getRadius() * height;
+        System.out.println("Volume: ");
+        return (super.getArea()*height);
     }
 
     @Override
     public double getArea(){
-        System.out.println("     ");
+        System.out.println("Area Of the Circle:");
         System.out.println(super.getArea());
         System.out.println("Area of Cylinder is: ");
-        return 2 * PI * getRadius() * (getRadius() + height);
+        //return 2 * PI * getRadius() * (getRadius() + height);
+        return 2*PI*getRadius()*getHeight()+2*(super.getArea());
     }
 
 }

@@ -6,6 +6,7 @@ public class TestCylinder {
 
         Cylinder cd = new Cylinder(2,3,"Pink");
         System.out.println(cd.getArea()); 
+        System.out.println(cd.getVolume());
         
     }
 }
