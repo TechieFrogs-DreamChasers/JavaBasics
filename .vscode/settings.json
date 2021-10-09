@@ -4,11 +4,12 @@
         "siri/ASSignmentOnStrings",
         "Swetha/src/Step2",
         "Nandini/src",
-<<<<<<< HEAD
-        "siri/Interface"
-=======
+        "siri/Interface",
         "Swetha/src/Step2",
-        "Swetha\\src"
->>>>>>> a47ff417ee796c972d50240c11fee180d52a46a4
+        "Swetha\\src",
+        "Bharath/Assignment1/src",
+        "Bharath/Practice/src",
+        "Nandini/src",
+        "Srivatsav/src/Assignment3"
     ]
 }

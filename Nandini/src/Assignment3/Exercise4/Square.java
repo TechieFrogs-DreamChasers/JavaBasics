@@ -24,5 +24,7 @@ public class Square extends Rectangle {
         perimeter = (4 * side);
         System.out.println("Perimeter Of the Square: " + perimeter);
     }
+
+    
     
 }
