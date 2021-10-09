@@ -36,7 +36,7 @@ public class Circle {
     }
 
     public double getArea(){
-        System.out.println("Area of Circle is: ");
+        //System.out.println("Area of Circle is: ");
         return (PI*radius*radius);
     }
 
