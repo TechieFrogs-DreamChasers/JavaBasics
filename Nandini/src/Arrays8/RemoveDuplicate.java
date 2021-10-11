@@ -1,27 +1,24 @@
 package Arrays8;
 
-import java.util.Arrays;
-
 public class RemoveDuplicate {
     public static void main(String[] args) {
-        
-        char[] ch = {'d','a','c','a','n','c'};
-        char[] chr ={};
+        int[] input = new int[]{1, 1, 3, 7, 7, 8, 9, 9, 9, 10};
+        int current = input[0];
+        boolean found = false;
 
-        int i,j,count=0;
-        for(i=0;i<ch.length;i++){
-            for(j=i+1;j<ch.length;j++){
-                if(ch[i] != ch[j]){
-                    chr[i] = ch[j];
-                }
-                if(ch[i] == ch[j]){
-                    ch[j]=' ';
-                    
-                }
+        for (int i = 0; i < input.length; i++) {
+              if (current == input[i] && !found) {
+              found = true;
+            } else if (current != input[i]) {
+            
+                System.out.print(" " + current);
+                current = input[i];
+                found = false;
             }
-            System.out.println(ch[i]);
         }
-        
+        System.out.print(" " + current);
+        }    
+    
     }
     
-}
+
