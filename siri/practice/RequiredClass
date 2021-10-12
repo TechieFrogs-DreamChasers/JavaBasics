@@ -1,0 +1,27 @@
+class RequiredClass extends ConcreateClass implements InterfaceQ6New  {
+
+	
+    public void methodOneInterfaceQ6(){
+
+    }
+    public void methodTwoInterfaceQ6(){
+        public void methodOneInterfaceQ6One(){
+
+        }
+        public void methodTwoInterfaceQ6One(){
+    
+        }
+        public void methodOneInterfaceQ6Two(){
+    
+        }
+        public void methodTwoInterfaceQ6Two(){
+    
+        }
+     public void methodInterfaceQ6New(){
+
+    } 
+    public static void main(String[] args) {
+        RequiredClass obj=new RequiredClass();
+
+    }
+}
