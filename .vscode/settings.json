@@ -1,5 +1,7 @@
 {
     "java.project.sourcePaths": [
+
+
         "siri/practice",
         "siri/ASSignmentOnStrings",
         "Swetha/src/Step2",
@@ -9,7 +11,10 @@
         "Swetha\\src",
         "Bharath/Assignment1/src",
         "Bharath/Practice/src",
+
         "Nandini/src",
+        "Bharath/Assignment1/src",
+        "Bharath/Practice/src",
         "Srivatsav/src/Assignment3"
     ]
 }
