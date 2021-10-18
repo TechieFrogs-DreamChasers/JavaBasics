@@ -9,7 +9,7 @@ public class Modifiers extends Encapsulation{
     public static void main(String[] args) {
         System.out.println("In the main");
         Encapsulation qObj = new Encapsulation();
-        System.out.println(qObj.geti());
+        System.out.println(qObj.getI());
          
     }
 
