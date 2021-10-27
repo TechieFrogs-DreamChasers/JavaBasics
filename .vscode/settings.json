@@ -4,7 +4,7 @@
         "siri/TCS",
         "siri/Interface",
         "siri/Exceptions",
-        "siri\\Arrays",
+        "siri/Arrays",
         "siri/Arraykss",
         "siri/ASSignmentOnStrings",
         "Swetha/src/Step2",

@@ -2,11 +2,11 @@ package Assignment6.Exercise1;
 
 public class Main {
 
-   /* public static void main(String[] args) {
+    public static void main(String[] args) {
 
         
-        EquilateralTriangle triangle = new EquilateralTriangle(5);
-        Square square = new Square(6);
+        EquilateralTriangle triangle = new EquilateralTriangle(6);
+        Square square = new Square(8);
 
         double[] rPolygons2 = {triangle.getNumSides(),square.getNumSides()};
 
@@ -20,16 +20,16 @@ public class Main {
         System.out.println("Number of Sides of Triangle: "+ triangle.getNumSides());
         System.out.println("Length of the Triangle: "+ triangle.getSideLength());
         System.out.println("Perimeter of Triangle: "+ triangle.getPerimeter());
-        System.out.println("Interior of triangle: "+ triangle.getInteriorAngle());
+        System.out.println("Interior of triangle: "+ triangle.getInteriorAngle()/3);
 
         System.out.println("                ");
 
         System.out.println("Number of Sides of Square: "+ square.getNumSides());
         System.out.println("Length of the Square: "+ square.getSideLength());
         System.out.println("Perimeter of the Square: "+ square.getPerimeter());
-        System.out.println("Interior of Square: "+ square.getInteriorAngle());
+        System.out.println("Interior of Square: "+ square.getInteriorAngle()/4);
 
-    }*/
+    }
     
 }
     

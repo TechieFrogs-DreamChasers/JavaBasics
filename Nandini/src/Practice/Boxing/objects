@@ -1,0 +1,7 @@
+
+Few things you should take care:
+
+Do not mix primitives and objects while doing comparisons. 
+You might get unpredictable results for such comparisons. 
+Better thing to do is: compare object with objects (using equals() method) and 
+compare primitive with primitives(using logical operators such as “==”, “<” etc).
