@@ -1,15 +1,17 @@
 {
     "java.project.sourcePaths": [
         "siri/practice",
+        "siri/TCS",
+        "siri/Interface",
+        "siri/Exceptions",
+        "siri\\Arrays",
+        "siri/Arraykss",
         "siri/ASSignmentOnStrings",
         "Swetha/src/Step2",
+        "Swetha/src",
+        "Srivatsav/src/Assignment3",
         "Nandini/src",
-        "siri/Interface",
-        "Swetha/src/Step2",
-        "Swetha\\src",
-        "Bharath/Assignment1/src",
         "Bharath/Practice/src",
-        "Nandini/src",
-        "Srivatsav/src/Assignment3"
+        "Bharath/Assignment1/src"
     ]
 }
