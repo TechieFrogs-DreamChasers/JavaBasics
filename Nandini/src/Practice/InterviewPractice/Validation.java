@@ -10,46 +10,15 @@ public class Validation {
 
         //initializing variables
         int firstIntegerValue;
-        int secondIntegerValue;
+        //int secondIntegerValue;
         String string;
 
         //calling validate method
         firstIntegerValue = validate(keyBoard);
-        secondIntegerValue = validate(keyBoard);
+        
 
         string = validation(keyBoard);
-        System.out.println("String:  "+ string);
-
-        //Handling the Exceptions
-        try{
-            int result = firstIntegerValue+secondIntegerValue;
-            System.out.println("Addition of Two Numbers: "+result);
-
-            System.out.println("FirstInteger is Palindrome or not");
-            int resultp = palindrome(firstIntegerValue);
-            if(resultp==firstIntegerValue)
-                System.out.println("Palindrome");
-            else
-                System.out.println("Not Palindrome ");
-
-        }catch(NumberFormatException e){
-            System.out.println("Error: "+e.getMessage());
-        }
     }
-
-
-    static int palindrome(int number){
-
-        int sum=0,r;
-	    while(number!=0)
-	    {
-	    r=number%10;
-	    sum=(sum*10)+r;
-	    number/=10;	
-	    }
-	return sum;
-    }
-
 
     static int validate(Scanner scannerObj){
         
