@@ -9,8 +9,7 @@ public class Randomgenerate {
         int value = rd.nextInt(50);
         System.out.println(value);
 
-        long l = rd.nextLong(30);
+        long l = rd.nextLong();
         System.out.println(l);
     }
-    
 }
