@@ -1,5 +1,6 @@
 package PRACTICE.Arrays;
 
+
 import java.util.Scanner;
 
 public class JaggedArray {
@@ -31,6 +32,7 @@ public class JaggedArray {
         System.out.println(name);
         String name1 = price.getClass().getName();//only after initialization
         System.out.println(name1);
+        
 
     }
 }

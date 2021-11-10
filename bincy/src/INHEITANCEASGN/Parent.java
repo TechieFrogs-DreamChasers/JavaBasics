@@ -3,7 +3,9 @@ package INHEITANCEASGN;
 */
 
 public class Parent {//1. Parent and child class
+    public int num =10;
     public static void main(String[] args){
+        
         Parent parent =new Parent();
         parent.show();
     }
