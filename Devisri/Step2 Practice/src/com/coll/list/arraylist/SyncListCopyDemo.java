@@ -30,6 +30,7 @@ public class SyncListCopyDemo {
         while (itr.hasNext()){
             synList.set(4,null);
             System.out.println(itr.next());
+            //synList.remove(3);
         }
         System.out.println(synList);
     }

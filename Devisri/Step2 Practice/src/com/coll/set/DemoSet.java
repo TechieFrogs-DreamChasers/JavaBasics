@@ -59,5 +59,8 @@ public class DemoSet {
         Set<List<String>> strSet = new HashSet<List<String>>();
         strSet.add(list_Of_Colors);
         System.out.println(strSet);
+
+        Set<Integer> numbers_Set=new HashSet<>();
+        Set<Integer> integerSet=new TreeSet<>(numbers_Set);
     }
 }
